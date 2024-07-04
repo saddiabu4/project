@@ -60,6 +60,28 @@
   .container nav ul {
     display: none;
   }
+  .container nav .search {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0 0.2rem;
+    display: inline-block;
+  }
+  .container nav .search input {
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .container nav #person {
+    border: 1px solid #000;
+    padding: 0.4rem;
+    border-radius: 15px;
+  }
+  .container nav #person #icon {
+    font-size: 1.2rem;
+    color: #000;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 320px) {
   .container nav {
